@@ -1,0 +1,52 @@
+/*
+
+ * C# Program to Accept the Height of a Person & Categorize as
+
+ * Tall, Dwarf or Average
+
+ */
+
+using System;
+
+class program
+
+{
+
+    public static void Main()
+        
+    {
+
+        float height;
+
+        Console.WriteLine("Enter  the Height (in centimeters) \n");
+
+        height = Convert.ToInt32(Console.ReadLine());
+
+        if (height <= 147.0)
+        {
+            Console.WriteLine("Dwarf \n");
+            Console.ReadLine();
+        }
+
+
+        else if ((height >= 150.0) && (height <= 165.0))
+
+        {
+            Console.WriteLine(" Average Height \n");
+            Console.ReadLine();
+        }
+        else if ((height >= 165.0) && (height <= 195.0))
+
+        {
+            Console.WriteLine("Taller \n");
+            Console.ReadLine();
+        }
+            else
+
+        {
+            Console.WriteLine("Abnormal height \n");
+            Console.ReadLine();
+        }
+    }
+
+}
