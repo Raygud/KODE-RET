@@ -1,0 +1,61 @@
+using System;
+
+   using System.Collections.Generic;
+
+   using System.Linq;
+
+   using System.Text;
+
+    
+
+   namespace and_operator
+
+   {
+
+       class Program
+
+       {
+
+         static void Main(string[] args)
+
+         {
+
+             
+
+  
+
+             
+
+
+            // evaluating both expresson and returns true if              all are true.
+
+            Console.WriteLine("Please login.");
+            Console.Write("Username: ");
+            String name = Console.ReadLine();
+            Console.Write("Password: ");
+            String password = Console.ReadLine();
+            
+
+            if (name == "Steven" && password == "Steven123")
+
+             {
+
+                Console.WriteLine("Login Successful");
+
+             }
+
+            else
+
+             {
+
+                 Console.WriteLine("Unauthorised access");
+
+             }
+
+             Console.ReadLine();
+
+         }
+
+     }
+
+ }
